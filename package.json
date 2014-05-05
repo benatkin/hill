@@ -1,0 +1,30 @@
+{
+  "name": "hill",
+  "version": "0.0.1",
+  "description": "creates an HTML fragment from a JSON object",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benatkin/hill.git"
+  },
+  "keywords": [
+    "html",
+    "browser"
+  ],
+  "author": "Benjamin Atkin <ben@benatkin.com> (http://benatkin.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benatkin/hill/issues"
+  },
+  "homepage": "https://github.com/benatkin/hill",
+  "dependencies": {
+    "escape-html": "^1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "expect.js": "^0.3.1"
+  }
+}
